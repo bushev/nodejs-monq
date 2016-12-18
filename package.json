@@ -1,27 +1,24 @@
 {
-    "name": "monq",
-    "version": "0.3.2",
-    "description": "MongoDB-backed job queue for Node.js",
-    "homepage": "http://github.com/scttnlsn/monq",
-    "author": "Scott Nelson <scott@scttnlsn.com>",
-    "main": "./lib/index",
-
-    "scripts": {
-        "test": "./node_modules/.bin/mocha"
-    },
-
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/scttnlsn/monq.git"
-    },
-
-    "dependencies": {
-        "mongodb": "^2.0.42"
-    },
-
-    "devDependencies": {
-        "async": "0.2.10",
-        "mocha": "1.18.2",
-        "sinon": "1.9.0"
-    }
+  "name": "monq",
+  "version": "0.3.2",
+  "description": "MongoDB-backed job queue for Node.js",
+  "homepage": "http://github.com/bushev/nodejs-monq",
+  "author": "Yury Bushev",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bushev/nodejs-monq.git"
+  },
+  "dependencies": {
+    "mongodb": "2.2.16"
+  },
+  "devDependencies": {
+    "async": "0.2.10",
+    "mocha": "1.18.2",
+    "mongoskin": "2.1.0",
+    "sinon": "1.9.0"
+  }
 }
