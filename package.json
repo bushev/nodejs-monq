@@ -1,6 +1,6 @@
 {
   "name": "monq",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "MongoDB-backed job queue for Node.js",
   "homepage": "http://github.com/bushev/nodejs-monq",
   "author": "Yury Bushev",
@@ -13,7 +13,7 @@
     "url": "git://github.com/bushev/nodejs-monq.git"
   },
   "dependencies": {
-    "mongodb": "2.2.16"
+    "mongodb": "2.2.22"
   },
   "devDependencies": {
     "async": "0.2.10",
