@@ -1,5 +1,5 @@
 {
-  "name": "monq",
+  "name": "nodejs-monq",
   "version": "0.3.3",
   "description": "MongoDB-backed job queue for Node.js",
   "homepage": "http://github.com/bushev/nodejs-monq",
